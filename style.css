@@ -1,0 +1,45 @@
+body {
+    background-color: #e0f7fa; /* soft pink */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+.center-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.center-container button {
+    margin-bottom: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0288d1; /* nice blue */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.center-container button:hover {
+    background-color: #026fa1; /* slightly darker on hover */
+}
+
+
+#secret {
+    display: none; 
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: hsl(281, 71%, 42%); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.center-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
