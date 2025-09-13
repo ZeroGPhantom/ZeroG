@@ -43,3 +43,53 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+header {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: #f0f8ff; /* soft light blue */
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: Arial, sans-serif;
+}
+
+/* Button styling */
+#modeToggle {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#modeToggle:hover {
+  background-color: #555;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode #modeToggle {
+  background-color: #eee;
+  color: #000;
+}
